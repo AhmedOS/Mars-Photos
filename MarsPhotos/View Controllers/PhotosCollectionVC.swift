@@ -14,7 +14,7 @@ private let reuseIdentifier = "FancyCell"
 
 class PhotosCollectionVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
-    var rover: String! = "Curiosity" //Rover!
+    var rover: String! = "Curiosity"
     var latestResponse: [JSON]?
     var sol = 0
     @IBOutlet weak var actionsButton: UIBarButtonItem!
@@ -24,7 +24,6 @@ class PhotosCollectionVC: UICollectionViewController, UICollectionViewDelegateFl
 
         self.clearsSelectionOnViewWillAppear = false
 
-        // Do any additional setup after loading the view.
         requestLatestPhotos()
         title = rover
         navigationItem.title = "🛸 Mars Photos"

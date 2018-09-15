@@ -25,7 +25,7 @@ enum API {
     }
     static let baseURL = "https://api.nasa.gov/mars-photos/api/v1/"
     static let rovers = ["Curiosity", "Opportunity", "Spirit"]
-    static let key = "?api_key=Lk4wHhF9nv1csgMpGjRmY1gmTMAXA3ZcaeSQYngp" //DEMO_KEY
+    static let key = "?api_key=DEMO_KEY"
     
     static let cameras = [ "Curiosity" : ["FHAZ", "RHAZ", "MAST", "CHEMCAM", "MAHLI", "MARDI", "NAVCAM" ],
                            "Opportunity" : ["FHAZ", "RHAZ", "NAVCAM", "PANCAM", "MINITES"],
