@@ -16,9 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        APIManager.setup()
+        setupViewControllers()
         return true
     }
-
+    
+    func setupViewControllers() {
+        let root = window?.rootViewController as! UITabBarController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let opportunityVC = storyboard.instantiateViewController(withIdentifier: "FancyNav") as! UINavigationController
+        (opportunityVC.viewControllers[0] as! PhotosCollectionVC).rover = "Opportunity"
+        root.viewControllers?.append(opportunityVC)
+        let spiritVC = storyboard.instantiateViewController(withIdentifier: "FancyNav") as! UINavigationController
+        (spiritVC.viewControllers[0] as! PhotosCollectionVC).rover = "Spirit"
+        root.viewControllers?.append(spiritVC)
+        root.tabBar.items?[0].title = "Curiosity"
+        root.tabBar.items?[1].title = "Opportunity"
+        root.tabBar.items?[2].title = "Spirit"
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC6E8914C0C183F2E3DB93A /* Pods_MarsPhotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA4DCB9E27EED56CA5F4C9C /* Pods_MarsPhotos.framework */; };
 		76158EFC2148C7A3000ED463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158EFB2148C7A3000ED463 /* AppDelegate.swift */; };
-		76158EFE2148C7A3000ED463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158EFD2148C7A3000ED463 /* ViewController.swift */; };
 		76158F012148C7A3000ED463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76158EFF2148C7A3000ED463 /* Main.storyboard */; };
 		76158F032148C7AE000ED463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76158F022148C7AE000ED463 /* Assets.xcassets */; };
 		76158F062148C7AE000ED463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76158F042148C7AE000ED463 /* LaunchScreen.storyboard */; };
+		76158F0E2148D804000ED463 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158F0D2148D804000ED463 /* APIManager.swift */; };
+		76158F102148D869000ED463 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158F0F2148D869000ED463 /* API.swift */; };
+		76158F1221490A2F000ED463 /* PhotosCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158F1121490A2F000ED463 /* PhotosCollectionVC.swift */; };
+		76158F1621493015000ED463 /* CollectionViewFancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158F1521493015000ED463 /* CollectionViewFancyCell.swift */; };
+		76158F182149F444000ED463 /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76158F172149F444000ED463 /* ImageVC.swift */; };
+		7641BAC5214C98D2008EEE8D /* Extensions+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641BAC4214C98D1008EEE8D /* Extensions+Helpers.swift */; };
+		7641BACC214CCF37008EEE8D /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7641BACB214CCF37008EEE8D /* InfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBBB796A9EDBB001A757611 /* Pods-MarsPhotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPhotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPhotos/Pods-MarsPhotos.release.xcconfig"; sourceTree = "<group>"; };
 		76158EF82148C7A3000ED463 /* MarsPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76158EFB2148C7A3000ED463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76158EFD2148C7A3000ED463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76158F002148C7A3000ED463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76158F022148C7AE000ED463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76158F052148C7AE000ED463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76158F072148C7AE000ED463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76158F0D2148D804000ED463 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		76158F0F2148D869000ED463 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		76158F1121490A2F000ED463 /* PhotosCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionVC.swift; sourceTree = "<group>"; };
+		76158F1521493015000ED463 /* CollectionViewFancyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFancyCell.swift; sourceTree = "<group>"; };
+		76158F172149F444000ED463 /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
+		7641BAC4214C98D1008EEE8D /* Extensions+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+Helpers.swift"; sourceTree = "<group>"; };
+		7641BACB214CCF37008EEE8D /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		ECA4DCB9E27EED56CA5F4C9C /* Pods_MarsPhotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsPhotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11BCAD46B6792DDCF43E292 /* Pods-MarsPhotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsPhotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarsPhotos/Pods-MarsPhotos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC6E8914C0C183F2E3DB93A /* Pods_MarsPhotos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E86649A0DF98DE236B8BD3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F11BCAD46B6792DDCF43E292 /* Pods-MarsPhotos.debug.xcconfig */,
+				3FBBB796A9EDBB001A757611 /* Pods-MarsPhotos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		76158EEF2148C7A3000ED463 = {
 			isa = PBXGroup;
 			children = (
 				76158EFA2148C7A3000ED463 /* MarsPhotos */,
 				76158EF92148C7A3000ED463 /* Products */,
+				1E86649A0DF98DE236B8BD3B /* Pods */,
+				C56AE0FC6635F07DA11A1E58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,60 @@
 		76158EFA2148C7A3000ED463 /* MarsPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				76158EFB2148C7A3000ED463 /* AppDelegate.swift */,
-				76158EFD2148C7A3000ED463 /* ViewController.swift */,
-				76158EFF2148C7A3000ED463 /* Main.storyboard */,
-				76158F022148C7AE000ED463 /* Assets.xcassets */,
-				76158F042148C7AE000ED463 /* LaunchScreen.storyboard */,
 				76158F072148C7AE000ED463 /* Info.plist */,
+				76158EFB2148C7A3000ED463 /* AppDelegate.swift */,
+				76158F022148C7AE000ED463 /* Assets.xcassets */,
+				7641BAC9214CAED4008EEE8D /* Utilities */,
+				7641BAC6214CAE85008EEE8D /* View Controllers */,
+				7641BAC7214CAEA2008EEE8D /* Storyboards */,
+				7641BACA214CAEE6008EEE8D /* Views */,
 			);
 			path = MarsPhotos;
+			sourceTree = "<group>";
+		};
+		7641BAC6214CAE85008EEE8D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76158F1121490A2F000ED463 /* PhotosCollectionVC.swift */,
+				76158F172149F444000ED463 /* ImageVC.swift */,
+				7641BACB214CCF37008EEE8D /* InfoVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7641BAC7214CAEA2008EEE8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				76158EFF2148C7A3000ED463 /* Main.storyboard */,
+				76158F042148C7AE000ED463 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7641BAC9214CAED4008EEE8D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				76158F0F2148D869000ED463 /* API.swift */,
+				76158F0D2148D804000ED463 /* APIManager.swift */,
+				7641BAC4214C98D1008EEE8D /* Extensions+Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7641BACA214CAEE6008EEE8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76158F1521493015000ED463 /* CollectionViewFancyCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C56AE0FC6635F07DA11A1E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA4DCB9E27EED56CA5F4C9C /* Pods_MarsPhotos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76158F0A2148C7AE000ED463 /* Build configuration list for PBXNativeTarget "MarsPhotos" */;
 			buildPhases = (
+				420DBA859969864706DFE4D7 /* [CP] Check Pods Manifest.lock */,
 				76158EF42148C7A3000ED463 /* Sources */,
 				76158EF52148C7A3000ED463 /* Frameworks */,
 				76158EF62148C7A3000ED463 /* Resources */,
+				EF7FCE4885838756E20BB194 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +206,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		420DBA859969864706DFE4D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsPhotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7FCE4885838756E20BB194 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MarsPhotos/Pods-MarsPhotos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarsPhotos/Pods-MarsPhotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		76158EF42148C7A3000ED463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76158EFE2148C7A3000ED463 /* ViewController.swift in Sources */,
+				76158F1621493015000ED463 /* CollectionViewFancyCell.swift in Sources */,
+				76158F182149F444000ED463 /* ImageVC.swift in Sources */,
+				7641BAC5214C98D2008EEE8D /* Extensions+Helpers.swift in Sources */,
+				76158F0E2148D804000ED463 /* APIManager.swift in Sources */,
+				7641BACC214CCF37008EEE8D /* InfoVC.swift in Sources */,
+				76158F1221490A2F000ED463 /* PhotosCollectionVC.swift in Sources */,
+				76158F102148D869000ED463 /* API.swift in Sources */,
 				76158EFC2148C7A3000ED463 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +403,7 @@
 		};
 		76158F0B2148C7AE000ED463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11BCAD46B6792DDCF43E292 /* Pods-MarsPhotos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +421,7 @@
 		};
 		76158F0C2148C7AE000ED463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBBB796A9EDBB001A757611 /* Pods-MarsPhotos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
